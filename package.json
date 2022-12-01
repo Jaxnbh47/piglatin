@@ -1,0 +1,14 @@
+{
+  "name": "piglatin",
+  "version": "1.0.0",
+  "description": "piglatinlab",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Jackson",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
