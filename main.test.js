@@ -1,18 +1,25 @@
-let translatePigLatin = require('./main')
+let main = require('./main')
 
-test ('jackson should return acksonay', () => {
-    //Here is where the unit test will happen
+test ('jackson should return acksonjay', () => {
+ 
+    let test = main.translatePigLatin('jackson');
+    expect(test).toEqual('acksonjay');
+})
 
-    //Arrange
-    //Where you test
-    //Variables you might need
+test ('jason should return asonjay', () => {
+ 
+    let test = main.translatePigLatin('jason');
+    expect(test).toEqual('asonjay');
+})
 
-    //Act
-    //Do the test
-    let testjackson = translatePigLatin('jackson');
+test ('jjaron should return aronjjay', () => {
+ 
+    let test = main.translatePigLatin('jjaron');
+    expect(test).toEqual('aronjjay');
+})
 
-    //Assert
-    //This is what should happen
-    expect(testjackson).toBe('acksonay');
-
+test ('aaron should return aaronway', () => {
+ 
+    let test = main.translatePigLatin('aaron');
+    expect(test).toEqual('aaronway');
 })
