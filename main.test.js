@@ -91,8 +91,13 @@ test ('aaron should return aaronway', () => {
     expect(test).toEqual('aaronway');
 })
 
-test ('JACKSON should return jackson', () => {
+test ('JACKSON should return acksonjay', () => {
  
     let test = main.translate('JACKSON');
     expect(test).toEqual('acksonjay');
+})
+test ('hello Friend should return ellohay iendfray', () => {
+ 
+    let test = main.translate('hello', 'Friend');
+    expect(test).toEqual('ellohay', 'iendfray');
 })

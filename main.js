@@ -1,6 +1,5 @@
 module.exports = { translate }
 
-
 function translate(string) {
 let vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U',];
 let input = "";
